@@ -17,8 +17,8 @@ addToDoButton.addEventListener("click", function(){
         paragraph.style.display="none";
     } );
     clearToDo.addEventListener('click', function(){
-        toDoContainer.style.display="none";
-        //toDoContainer.remove();
+        // toDoContainer.style.display="none";
+        toDoContainer.remove();
         //paragraph.style.display="none";
     } );
 });
